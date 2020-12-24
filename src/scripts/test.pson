@@ -1,0 +1,36 @@
+module TestModule {
+
+    package TestFamily {
+        export "family":
+            onlyChild: true
+            mother: true
+            father: false
+            h: 342
+    }
+
+    package Sweats {
+        export "names":
+            name1: "\p"
+            name2: "DDD"
+            testNested: [
+                (
+                    hi: "DDf"
+                    key: 23
+                    array: [
+                        (
+                            gh: "D"
+                        )
+                    ]
+                ),
+                (
+                    gh: "re"
+                    bool: true
+                ),
+                (
+                    hi: "q"
+                    r: 45
+                )
+            ]
+            hq: "HQ"
+    }
+}

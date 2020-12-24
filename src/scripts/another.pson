@@ -1,0 +1,88 @@
+module TestMod {
+
+    package Test {
+        export "testEl":
+            question: "DD ghgh hghg"
+            coolness: false
+            nice: "\p"
+
+        export "newTest":
+            wins: 34
+            height: 92
+            isStrong: false
+        export "BLANK":
+            height: 3.14
+            weight: 456
+    }
+
+    package TestFamily {
+        export "family":
+            onlyChild: true
+            mother: true
+            father: false
+            h: 342
+
+         export "newEL":
+            unar: 324
+            mom: "mom"
+            hasDad: false
+            hasUncle: false
+            array newArray: {
+            (
+                wow: "cool",
+                nicely: 34,
+                heart: {
+                5, 4, 3, 2, 1,
+                (
+                    oops: "yokes",
+                    rar: {
+                    1, 2, 3, 4,
+                    (
+                        myL: "njffd"
+                        efu: 2342
+                        gg: {
+                        (
+                            question: "How was your day?"
+                            answer: "good"
+                        )
+                        },
+                    ),
+                    (
+                        default: {
+                        "fd",
+                        2,
+                        3,
+                        43.4324
+                        },
+                        secondary: 34
+                    )
+                  }
+                )
+           },
+           nice: {
+           (
+                hello: "hello",
+                isSolid: true,
+                aa: {
+                (
+                    vbar: "d/t",
+                    super: 3434
+                    cheat_code: 23
+                )
+              }
+           )
+          }
+        )
+        };
+
+
+        niceChild: true
+        isCool: false
+        IQ: 344
+        array default: {
+            1, 2, 3
+        };
+
+    }
+
+}
